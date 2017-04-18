@@ -12,3 +12,19 @@
  
 /* Theme customization starts here
 ------------------------------------------------------- */
+
+
+/*HOME PAGE*/
+
+.page-id-75 .et_fullscreen_slider .et_pb_slides,
+.page-id-75 .et_fullscreen_slider .et_pb_slide,
+.page-id-75 .et_fullscreen_slider .et_pb_container {
+    min-height: 100% !important;
+    height: 100% !important;
+}
+
+.page-id-75 .et_pb_slide h2.et_pb_slide_title{
+    padding-bottom: 40px;
+    font-weight: bold;
+}
+
