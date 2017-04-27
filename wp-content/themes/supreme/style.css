@@ -26,8 +26,29 @@
     padding-top: 20px;
 }
 
+.logo_container > a {
+    display: block;
+    width: 280px;
+    margin-top: -75px;
+    transition: 0.5s;
+}
+
+.et-fixed-header .logo_container > a{
+    width: 110px;
+    margin-top: -55px;
+}
+
+#page-container{
+    padding-top: 110px !important;
+}
+
 
 /*HOME PAGE*/
+
+.page-id-75 #page-container,
+.page-id-84 #page-container{
+    padding-top: 80px !important;
+}
 
 .page-id-75 .et_fullscreen_slider .et_pb_slides,
 .page-id-75 .et_fullscreen_slider .et_pb_slide,
@@ -105,15 +126,19 @@
     line-height: 1.9em;
 }
 
-.et_pb_contact_field_2.et_pb_contact_field .input {
+.page-id-75 .et_pb_contact_field_2.et_pb_contact_field .input {
     font-family: 'Arial', Helvetica, Arial, Lucida, sans-serif;
     font-size: 25px;
     color: #ffffff !important;
     line-height: 1.9em;
 }
 
-.page-id-40 .et_pb_contact_form textarea {
+.page-id-75 .et_pb_contact_form textarea {
     height: 250px;
+}
+
+.page-id-75 .et_pb_section_3{
+    padding-top: 0;
 }
 
 
@@ -209,6 +234,10 @@
     font-weight: normal;
 }
 
+.woocommerce ul.products li.product .woocommerce-loop-product__title:hover{
+    color: #2ea3f2
+}
+
 .woocommerce ul.products li.product .woocommerce-Price-amount{
     color: #2ea3f2;
     font-size: 18px;
@@ -241,3 +270,99 @@
 .page-id-216 table th{
     text-align: center;
 }
+
+.et_pb_toggle_close h5.et_pb_toggle_title:hover {
+    color: #00aef0;
+}
+
+.page-id-3911 ol{
+    margin-left: 30px;
+}
+
+
+
+/*BLOG*/
+.page-id-84 .header-content h1{
+    font-size: 47px;
+    font-weight: bold;
+    padding-top: 30px;
+}
+
+.page-id-84 .header-content .et_pb_fullwidth_header_subhead{
+    font-size: 22px;
+    padding-top: 10px;
+    line-height: 30px;
+}
+
+.page-id-84 .entry-title{
+    font-size: 27px;
+    padding-bottom: 5px;
+}
+
+.page-id-84 .entry-title:hover{
+    color: #2ea3f2;
+}
+
+.page-id-84 .et_pb_post .post-meta{
+    font-size: 10px;
+    line-height: 12px;
+}
+
+/*.page-id-84 article{*/
+    /*height: 550px;*/
+/*}*/
+
+.page-id-84 .post-content{
+    padding: 5px 0;
+}
+
+article .more-link{
+    border: 2px solid #2ea3f2;
+    padding: 6px 10px;
+    font-weight: bold;
+    display: inline-block;
+    margin: 10px auto;
+    transition: 0.3s;
+}
+
+article .more-link:hover{
+    background: #2ea3f2;
+    color: #fff;
+}
+
+/*FOOTER*/
+
+#main-footer #aboutmewidget-2 {
+    margin-bottom: 20px !important;
+}
+
+#main-footer #text-2 img{
+    width: 70%;
+    display: block;
+    margin: 0 auto;
+}
+
+#main-footer .footer-widget .title{
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+#footer-widgets .footer-widget li:before{
+    display: none;
+}
+
+#main-footer #menu-footer-menu li{
+    font-size: 25px;
+    text-align: center;
+    height: 30px;
+}
+
+#main-footer #menu-footer-menu li a:hover{
+    color: #2ea3f2;
+}
+
+#main-footer #aboutmewidget-2 .clearfix{
+    font-size: 20px;
+    line-height: 24px;
+}
+
