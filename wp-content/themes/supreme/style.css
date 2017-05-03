@@ -34,7 +34,7 @@
 }
 
 .et-fixed-header .logo_container > a{
-    width: 110px;
+   
     margin-top: -55px;
 }
 
@@ -42,12 +42,46 @@
     padding-top: 110px !important;
 }
 
+.et-pb-contact-message p,
+.et-pb-contact-message li{
+    color: red !important;
+    font-weight: bold;
+    font-size: 17px;
+    text-shadow: 2px 2px #000000;
+    text-align: center;
+}
+
+.page-id-3924 .et-pb-contact-message p,
+.page-id-3924 .et-pb-contact-message li{
+    text-shadow: none;
+}
+
+.et-pb-contact-message ul li{
+    list-style: none;
+}
+
+#top-menu li {
+    padding-right: 18px;
+    font-size: 14px;
+}
+
+.img-center img{
+    display: block;
+    margin: 0 auto;
+}
+
+.woocommerce-page #main-content {
+    padding-top: 50px;
+}
+
+#about-image{
+	display: none;
+}
 
 /*HOME PAGE*/
 
-.page-id-75 #page-container,
-.page-id-84 #page-container{
-    padding-top: 80px !important;
+#page-container{
+    padding-top: 0 !important;
 }
 
 .page-id-75 .et_fullscreen_slider .et_pb_slides,
@@ -246,6 +280,11 @@
     display: inherit;
 }
 
+.page-id-70 #billing_first_name,
+.page-id-70 #billing_last_name{
+    text-transform: uppercase;
+}
+
 /*Podstrony*/
 
 .page-id-171 .et_pb_text ul{
@@ -336,10 +375,15 @@ article .more-link:hover{
     margin-bottom: 20px !important;
 }
 
-#main-footer #text-2 img{
+#main-footer #text-2 img,
+#main-footer #text-4 img{
     width: 70%;
     display: block;
     margin: 0 auto;
+}
+
+#main-footer #text-4 img{
+    width: 75%;
 }
 
 #main-footer .footer-widget .title{
@@ -352,9 +396,9 @@ article .more-link:hover{
 }
 
 #main-footer #menu-footer-menu li{
-    font-size: 25px;
+    font-size: 21px;
     text-align: center;
-    height: 30px;
+    height: 23px;
 }
 
 #main-footer #menu-footer-menu li a:hover{
@@ -362,7 +406,17 @@ article .more-link:hover{
 }
 
 #main-footer #aboutmewidget-2 .clearfix{
-    font-size: 20px;
-    line-height: 24px;
+    font-size: 16px;
+    line-height: 18px;
+}
+
+/*EVENT CALENDAR*/
+
+#tribe-events-content-wrapper{
+	padding: 100px 0 50px 0;
+}
+
+#tribe-events-content{
+    padding-top: 115px;
 }
 
